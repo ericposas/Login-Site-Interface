@@ -1,0 +1,76 @@
+h2{
+  font-family: 'Arial';
+  font-size: 20px;
+}
+h3, h4, div, button{
+  font-family: 'Arial';
+  font-size: 16px;
+  text-align: center;
+}
+h4{
+  font-size: 14px;
+}
+form{
+}
+span{
+  color: red;
+}
+#logged-in-area{
+  display: none;
+}
+#logged-user{
+  margin-top: 0px;
+  font-size: 14px;
+  text-align: left;
+  width: 140px;
+}
+#log-out-form{
+  margin-top: -30px;
+  float: right;
+  display: inline-block;
+  width: 100px;
+}
+#log-out{
+  font-size: 13px;
+  width: 100px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+#my-page{
+  font-size: 13px;
+  width: 100px;
+  position: absolute;
+  top: 36px;
+  right: 4px;
+}
+#or{
+  color: #ccc;
+}
+#register{
+  display: none;
+}
+#login{
+  display: none;
+}
+#register-btn:hover,
+#login-btn:hover,
+#log-out:hover,
+#my-page:hover,
+#back-to-index:hover{
+  cursor: pointer;
+}
+#login-or-register,
+#login,
+#register{
+  margin-top: 100px;
+}
+#login-btn{
+  margin-top: 20px;
+}
+
+
+.error, .msg{
+  font-size: 15px;
+  font-weight: lighter;
+}
